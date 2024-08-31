@@ -1,0 +1,26 @@
+// *{
+//     outline: 1px solid blue;
+// }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: "castoro", sans-serif;
+    line-height: 1.5;
+}

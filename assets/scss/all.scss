@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+//helper
+@import './helper/variables';
+@import './helper/mixins';
+@import './helper/utils';
+
+//base
+@import './base/reset';
+@import './base/base';
+
+//layout
+@import'./layout/grid';
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-
+//pages
 @import './pages/index.scss';
