@@ -18,9 +18,10 @@
   }
 }
 
-.info {
+.info-list {
   max-width: 636px;
-  padding: 80px 0 160px 0;
+  padding-top: 80px;
+  padding-bottom: 160px;
 
   &-list > li:not(:last-child){
     margin-bottom: 40px;
