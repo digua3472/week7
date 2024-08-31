@@ -1,4 +1,18 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  background: $bg-dark;
+  padding: 64px 0;
+  
+  .sns {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    &-img {
+      width: 64px;
+    }
+  }
+  .sns a:hover {
+    border-radius: 32px;
+    box-shadow: 0 0 10px #fff;
+  }
 }
