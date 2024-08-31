@@ -1,3 +1,44 @@
-.index-title {
-  font-size: 100px;
+.header {
+  padding-top: 160px;
+
+  &-img {
+    max-width: 636px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.desc {
+  background: $bg-light;
+  padding: 48px 0;
+
+  &-text {
+    max-width: 636px;
+    margin-left: auto;
+  }
+}
+
+.info {
+  max-width: 636px;
+  padding: 80px 0 160px 0;
+
+  &-list > li:not(:last-child){
+    margin-bottom: 40px;
+  }
+
+  .profile li:not(:last-child){
+    margin-bottom: 8px;
+  }
+
+  .education li:not(:last-child){
+    margin-bottom: 16px;
+  }
+
+  .work li:not(:last-child){
+    margin-bottom: 16px;
+  }
+
+  .awards li:not(:last-child){
+    margin-bottom: 12px;
+  }
 }

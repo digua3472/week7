@@ -1,3 +1,34 @@
 .d-flex {
     display: flex;
 }
+
+.text-align-right {
+    text-align: right;
+}
+
+//font
+.title {
+    font-size: 128px;
+    letter-spacing: 0.12em;
+}
+
+.subtitle {
+    font-size: 40px;
+    color: $primary;
+    border-bottom: 3px solid $primary;
+    margin-bottom: 16px;
+}
+
+.fs-1 {
+    font-size: 32px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+    font-style: italic;
+    color: $secondary;
+}
